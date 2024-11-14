@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_f-pmpfQaS6DoAHiQJLcaWnWlO1eewCaXHw&s);
+    background-position:center;
+    background-size:cover;
+    height:109vh;
+}
+
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin:auto;
+}
+
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+
+.klmpk{
+    color: #ff7200;
+    font-size:35px;
+    padding-left:20px;
+    float:left;
+    padding-top:10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    margin-left:600px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style:none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color:#ff7200;
+}
+
+.konten{
+    width:1200px;
+    height:auto;
+    margin:auto;
+    color: white;
+    padding-top:12%;
+}
+
+.konten .tulisan{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1px;
+    line-height:30px;
+}
+
+.konten h1{
+    font-size:50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+}
+
+.konten .btn{
+    width: 160px;
+    height: 40px;
+    background-color:#ff7200;
+    border: none;
+    color:black;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size:18px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.konten .btn2{
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    border: 1.5px solid #ff7200 ;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size:18px;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.btn:active{
+    background-color: white;
+}
+
+.btn2:active{
+    background-color: white;
+    border:none;
+    color: black;
+}
+
+.konten span{
+    color: #ff7200;
+    font-size:60  px;
+}

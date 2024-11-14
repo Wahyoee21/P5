@@ -1,0 +1,92 @@
+/* Mengatur body agar memusatkan form */
+body {
+    display: flex; /* Menggunakan flexbox pada body */
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+    height: 100vh; /* Membuat body mengisi tinggi viewport */
+    margin: 0; /* Menghilangkan margin default */
+    background-color: #f1f1f1; /* Tambahkan latar belakang untuk visual yang lebih baik */
+}
+
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    margin: 10px; /* Menghilangkan margin kiri dan kanan agar lebih rapi */
+    width: 500px; /* Mengatur lebar form */
+    height: 650px; /* Mengatur tinggi form */
+    padding: 20px; /* Menambah padding dalam form untuk ruang tambahan */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambah bayangan untuk efek visual */
+    display: flex; /* Menggunakan flexbox untuk mengatur layout */
+    flex-direction: column; /* Mengatur agar elemen berada dalam kolom */
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%; /* Membuat input selebar area kontennya */
+    padding: 12px 20px; /* Memberi jarak antara isi input dengan tepi input */
+    margin: 8px 0; /* Memberi jarak antara input dengan elemen di atas dan bawahnya */
+    display: inline-block; /* Membuat input sejajar dengan elemen lainnya dalam satu baris */
+    border: 1px solid #ccc; /* Membuat border input berwarna abu-abu muda dan tebal 1px */
+    box-sizing: border-box; /* Membuat ukuran input tetap, termasuk border */
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D; /* Membuat tombol dengan latar belakang hijau */
+    color: white; /* Warna teks putih */
+    padding: 14px 20px; /* Memberi padding pada tombol */
+    margin: 8px 0; /* Memberi margin vertikal pada tombol */
+    border: none; /* Menghilangkan border tombol */
+    cursor: pointer; /* Mengubah kursor menjadi tangan saat menunjuk tombol */
+    width: 100%; /* Membuat tombol selebar area kontennya */
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8; /* Membuat tombol sedikit transparan saat kursor menunjuknya */
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto; /* Mengatur lebar otomatis */
+    padding: 10px 18px; /* Menambah padding */
+    background-color: #f44336; /* Warna latar belakang merah */
+}
+
+.cancelbtn a {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: white; /* Warna teks putih */
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center; /* Menempatkan gambar avatar di tengah */
+    margin: 24px 0 12px 0; /* Margin untuk gambar */
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%; /* Membuat gambar avatar selebar 40% dari area kontennya */
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px; /* Memberi jarak pada elemen di dalam container */
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right; /* Menempatkan teks "Forgot password" di kanan */
+    padding-top: 16px; /* Memberi jarak ke atas */
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block; /* Menampilkan dalam blok untuk layar kecil */
+        float: none; /* Menghilangkan float */
+    }
+    .cancelbtn {
+        width: 100%; /* Membuat tombol batal selebar area konten */
+    }
+}
